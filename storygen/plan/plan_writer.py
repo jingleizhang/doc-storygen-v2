@@ -160,7 +160,7 @@ def generate_node_subevents(node, llm_client, outline_prompt, outline_config, pl
             outline_config['entity_depth_0'] if node.depth() == 0 else outline_config['entity'],
             plan
         )
-        logging.info(f"Newly generated node: {new_child}")
+        logging.info(f"Newly generated node: {new_child}, parent_node: {node.id}")
         if len(node.children) < outline_config['min_children']:
             has_next = True
         elif len(node.children) >= outline_config['max_children']:

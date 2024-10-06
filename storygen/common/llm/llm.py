@@ -68,7 +68,7 @@ class LLMClient:
     def __init__(self):
         self.warned = {'vllm_logit_bias': False}
 
-    def call_with_retry(self, prompt_builder, sampling_config, postprocessor=None, filter=lambda s: len(s.strip()) > 0, max_attempts=5, **kwargs):
+    def call_with_retry(self, prompt_builder, sampling_config, postprocessor=None, filter=lambda s: len(s.strip()) > 0, max_attempts=6, **kwargs):
         for _ in range(max_attempts):
             try:
                 completions, full_completion_object = self(prompt_builder, sampling_config, **kwargs)

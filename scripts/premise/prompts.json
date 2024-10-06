@@ -1,10 +1,10 @@
 {
     "title": {
-        "instruction": "Write a title for a short story.",
+        "instruction": "Write a title for a story which is about: A young man named Alex wakes up one morning to find that he has the ability to read minds.",
         "response_prefix": "Sure, here is a possible title:\n\nTitle:"
     },
     "premise": {
-        "instruction": "Write a premise for a short story.",
+        "instruction": "Write a premise for a story which is about: A young man named Alex wakes up one morning to find that he has the ability to read minds.",
         "response_prefix": "Title: {title}\n\nPremise:"
     }
 }

@@ -4,7 +4,7 @@ import json
 import logging
 import os
 
-LOCALHOST = 'http://localhost'
+LOCALHOST = 'http://127.0.0.1'
 DEFAULT_PORT = 8000
 
 
@@ -69,6 +69,7 @@ def start_server(config):
         # run vllm openai-interface server
         # try:
         os.system(f"python -u -m vllm.entrypoints.openai.api_server \
+                        --host 0.0.0.0 \
                         --model {config['engine']} \
                         --tensor-parallel-size {config['tensor_parallel_size']} \
                         --port {config['port']} &")

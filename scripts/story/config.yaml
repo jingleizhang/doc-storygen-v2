@@ -11,11 +11,11 @@ defaults:
   delete_old_intermediates: true
   logging_level: info # debug, info, warning, error, critical
   MODEL:
-    engine: TODO # TODO path/to/vllm-supported/hf/model, vllm-supported huggingface model string, or openai model string
+    engine: /root/autodl-tmp/models/Llama-2-7b-chat-hf # TODO path/to/vllm-supported/hf/model, vllm-supported huggingface model string, or openai model string
     tensor_parallel_size: 1 # TODO number of gpus to use
     server_type: vllm # "vllm" or "openai"
-    host: http://localhost # model server if using vllm
-    port: 9741
+    host: https://u447140-aa08-814742ab.beijinga.seetacloud.com # model server if using vllm
+    port: 443
     prompt_format: llama2-chat # "none" (pretrained base model), "openai-chat", or "llama2-chat"; add other options in llm.py as needed
     # for the remaining args below, you can put these args here to be shared, or put specific ones under "title" and "premise" if you want different args
     temperature: 1
@@ -25,7 +25,7 @@ defaults:
     STORY:
       rendering_policy: leaves # which outline nodes to render. "leaves" or "all"
       min_passages_per_node: 2
-      max_passages_per_node: 8
+      max_passages_per_node: 6
       passage_beam_width: 1 # number of candidates in the beam within the rendering for each outline node; occasional failure cases/crashes if you reduce to 1, but it's fine if you're ok with restarting from intermediate
       outline_node_beam_width: 1 # number of candidates at the higher outline node level; occasional failure cases/crashes if you reduce to 1, but it's fine if you're ok with restarting from intermediate
       ancestor_nodes_in_premise: true # whether to include ancestor node events in the premise as context
@@ -46,12 +46,12 @@ defaults:
         max_tokens: 128
         stop: ["\n"]
       SCORE:
-        # engine: # path/to/vllm-supported/hf/model, vllm-supported huggingface model string, or openai model string
-        # server_type: vllm # "vllm" or "openai"
-        # host: http://localhost # model server if using vllm
-        # port: 9741
-        # prompt_format: llama2-chat
-        # reranking: relevance to plot, coherence with previous text, whether it has extra commentary at the end, length of continuation (if it stops early, we don't want it, because it indicates a shift away from story style for chat models)
+        engine: /root/autodl-tmp/models/Llama-2-7b-chat-hf # path/to/vllm-supported/hf/model, vllm-supported huggingface model string, or openai model string
+        server_type: vllm # "vllm" or "openai"
+        host: https://u447140-aa08-814742ab.beijinga.seetacloud.com # model server if using vllm
+        port: 443
+        prompt_format: llama2-chat
+        reranking: relevance to plot, coherence with previous text, whether it has extra commentary at the end, length of continuation (if it stops early, we don't want it, because it indicates a shift away from story style for chat models)
         scorers: ['relevance', 'coherence', 'commentary', 'length']
         RELEVANCE:
           max_tokens: 5

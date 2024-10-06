@@ -8,11 +8,11 @@ defaults:
   output_path: output/plan.json
   logging_level: info # debug, info, warning, error, critical
   MODEL:
-    engine: TODO # TODO path/to/vllm-supported/hf/model, vllm-supported huggingface model string, or openai model string
+    engine: /root/autodl-tmp/models/Llama-2-7b-chat-hf # TODO path/to/vllm-supported/hf/model, vllm-supported huggingface model string, or openai model string
     tensor_parallel_size: 1 # TODO number of gpus to use
     server_type: vllm # "vllm" or "openai"
-    host: http://localhost # model server if using vllm
-    port: 9741
+    host: https://u447140-aa08-814742ab.beijinga.seetacloud.com # model server if using vllm
+    port: 443
     prompt_format: llama2-chat # "none" (pretrained base model), "openai-chat", or "llama2-chat"; add other options in llm.py as needed
     temperature: 1.0
     top_p: 0.99
@@ -24,7 +24,7 @@ defaults:
     ENTITY:
       max_attempts: 5 # if it fails for whatever reason, we'll retry entity generation up to this many times
       min_entities: 3
-      max_entities: 10
+      max_entities: 8
       NAME:
         max_tokens: 16
         stop: ["\n", ",", ":", "("]
@@ -36,7 +36,7 @@ defaults:
       max_depth: 3 # depth of expansion. the (empty) root of the tree is depth 0 and the top-level 1,2,3 is depth 1.
       context: ancestors-with-siblings-children # how much context the model sees when generating new outline nodes. options are ancestors, ancestors-with-siblings, ancestors-with-siblings-children, full. you should probably use more context as your model's context window allows.
       min_children: 2 # min children per expansion
-      preferred_max_children: 4
+      preferred_max_children: 3
       max_children: 5
       EVENT_DEPTH_0: # slightly different handling at the top level compared to later
         max_tokens: 128

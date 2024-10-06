@@ -91,4 +91,27 @@ And here are the results of our human evaluation.
 
 ## License
 
-This repo is licensed under the Apache 2.0 License. See the LICENSE file for details.
+This repo is licensed under the Apache 2.0 License. See the LICENSE file for details
+
+Commands:
+
+路径：/root/autodl-tmp/doc-storygen-v2/scripts
+
+1. python premise/generate.py
+
+- 输入：对话框 + premise/prompts.json 
+- 输出：output/premist.json
+
+2. python plan/generate.py
+
+- 输入：
+- 输出：
+
+3. python story/generate.py
+
+- 输入：
+- 输出：
+
+网页端口：6006
+
+外部可访问的URL：https://u447140-b635-76aaf899.beijinga.seetacloud.com/
