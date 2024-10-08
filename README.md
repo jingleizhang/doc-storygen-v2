@@ -93,24 +93,24 @@ And here are the results of our human evaluation.
 
 This repo is licensed under the Apache 2.0 License. See the LICENSE file for details
 
-Commands:
+## Commands:
 
 路径：/root/autodl-tmp/doc-storygen-v2/scripts
 
 1. python premise/generate.py
 
-- 输入：对话框 + premise/prompts.json 
-- 输出：output/premist.json
+- 输入：对话框，1-2句英文
+- 输出：output/premise.json，有title和premise两个字段，允许编辑
 
 2. python plan/generate.py
 
-- 输入：
-- 输出：
+- 输入：output/premise.json
+- 输出：output/plan.json，需要树形json展示，允许编辑
 
 3. python story/generate.py
 
-- 输入：
-- 输出：
+- 输入：output/plan.json
+- 输出：output/story.txt
 
 网页端口：6006
 

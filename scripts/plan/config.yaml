@@ -11,7 +11,7 @@ defaults:
     engine: /root/autodl-tmp/models/Llama-2-7b-chat-hf # TODO path/to/vllm-supported/hf/model, vllm-supported huggingface model string, or openai model string
     tensor_parallel_size: 1 # TODO number of gpus to use
     server_type: vllm # "vllm" or "openai"
-    host: https://u447140-aa08-814742ab.beijinga.seetacloud.com # model server if using vllm
+    host: https://u447140-bf3c-40c902e6.beijinga.seetacloud.com # model server if using vllm
     port: 443
     prompt_format: llama2-chat # "none" (pretrained base model), "openai-chat", or "llama2-chat"; add other options in llm.py as needed
     temperature: 1.0
@@ -37,7 +37,7 @@ defaults:
       context: ancestors-with-siblings-children # how much context the model sees when generating new outline nodes. options are ancestors, ancestors-with-siblings, ancestors-with-siblings-children, full. you should probably use more context as your model's context window allows.
       min_children: 2 # min children per expansion
       preferred_max_children: 3
-      max_children: 5
+      max_children: 6
       EVENT_DEPTH_0: # slightly different handling at the top level compared to later
         max_tokens: 128
       EVENT:
