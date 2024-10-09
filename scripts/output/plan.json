@@ -1,41 +1,29 @@
 {
     "premise": {
-        "title": "\"The Mind-Reader: Leo's Journey into the Invisible\"",
-        "premise": "Leo is a typical young man in his early 20s, living a mundane life, until one morning, he wakes up to find that he can read minds. At first, he thinks it's just a dream, but as he goes about his daily routine, he discovers that his newfound ability is very real. He can not only hear the thoughts of those around him, but also enters their memories, experiences their emotions, and even manipulate their thoughts."
+        "title": "\"The Wasteland of Lost Memories\"",
+        "premise": "Sarah, a brilliant and curious young woman, finds herself waking up in an unfamiliar location with no recollection of how she arrived there. As she explores her surroundings, she realizes that she is trapped in a virtual reality game designed to mimic a post-apocalyptic wasteland. But what sets this game apart is that it's not just a simple escapade, but a precisely crafted simulations of a world that has been decimated by an unknown catastrophe."
     },
-    "setting": "The story is set in a sprawling, bustling metropolis with a rich history and a multicultural population.",
+    "setting": "The story is set in a vast, ruined metropolis with crumbling skyscrapers, overgrown with twisted plants and patrolled by mysterious, gas-masked figures.",
     "entities": [
         {
-            "name": "Rachel",
-            "description": "Rachel is Leo's childhood friend and secret crush. She's a curious and intelligent young woman with a sharp sense of humor."
+            "name": "Dr. Elara Vex",
+            "description": "Dr. Elara Vex is a brilliant scientist who created the game."
         },
         {
-            "name": "Jack",
-            "description": "Jack is Leo's older brother, who is initially skeptical of Leo's newfound ability but eventually becomes a valuable ally."
+            "name": "Jack Atlas",
+            "description": "Jack Atlas is a charismatic leader who is attempting to recruit survivors to join his faction."
         },
         {
-            "name": "Dr. Maria Rodriguez",
-            "description": "Dr. Maria Rodriguez is a renowned neuroscientist who specializes in the study of psychic phenomena. She's a no-nonsense, brilliant woman with a dry sense of humor."
+            "name": "Machine Man",
+            "description": "Machine Man is a mysterious figure shrouded in thick, metallic armor who patrols the ruined city."
         },
         {
-            "name": "Elijah",
-            "description": "Elijah is a mysterious, charismatic stranger who seems to know more about Leo's abilities than he lets on. He's a skilled con artist with a hidden agenda."
+            "name": "Sarah Cooper",
+            "description": "Sarah Cooper is the protagonist, who wakes up in the virtual world with no memory of how she got there."
         },
         {
-            "name": "Samantha",
-            "description": "Samantha is a vivacious, free-spirited young woman who accidentally bumps into Leo and reveals a deep secret about her own mind-reading abilities."
-        },
-        {
-            "name": "Lindstrom",
-            "description": "Lindstrom is a powerful businessman with a dark past and a desperate need to keep Leo's abilities a secret. He's ruthless and cunning, but also intensely loyal to those he cares about."
-        },
-        {
-            "name": "The Voice",
-            "description": "The Voice is an enigmatic entity that seems to be communicating with Leo from beyond the grave. It's a deep, resonant voice that speaks in cryptic messages and seeming riddles."
-        },
-        {
-            "name": "Alex",
-            "description": "Alex is Leo's younger brother who is plagued by nightmares and an unsettling feeling of being watched. He's a sensitive and imaginative child who can sometimes communicate with the Voice."
+            "name": "Erebus",
+            "description": "Erebus is the darkness embodied, an immortal entity that can manipulate the world around him."
         }
     ],
     "outline": {
@@ -44,268 +32,312 @@
         "entities": [],
         "children": [
             {
-                "text": "Leo wakes up with mind-reading abilities and struggles to cope with the overwhelming amount of thoughts and emotions around him.",
-                "scene": "Leo's small apartment filled with cereal boxes and takeout cartons.",
+                "text": "Sarah wakes up in the virtual reality game with no memory of how she got there.",
+                "scene": "A dark, dingy room with walls made of twisted metal.",
                 "entities": [
-                    "Dr. Maria Rodriguez",
-                    "Elijah"
+                    "Sarah Cooper",
+                    "Dr. Elara Vex"
                 ],
                 "children": [
                     {
-                        "text": "Leo's messy apartment, filled with cereal boxes and takeout cartons, feels suffocating as he struggles to make sense of his newfound abilities.",
-                        "scene": "Leo's cluttered dingy apartment, surrounded by chaotic mess.",
+                        "text": "Sarah's eyes flutter open to darkness, the only light coming from a faint, flickering glow emanating from the walls.",
+                        "scene": "Dark, cramped storage room with dim emergency lights.",
                         "entities": [
-                            "Dr. Maria Rodriguez",
-                            "Elijah",
-                            "The Voice"
+                            "Machine Man",
+                            "Sarah Cooper",
+                            "Dr. Elara Vex"
                         ],
                         "children": [
                             {
-                                "text": "Leo discovers he can hear random thoughts from passersby, causing him to feel like a and isolated in his small apartment.",
-                                "scene": "Leo's crowded, cluttered apartment.",
+                                "text": "Sarah's groggy voice hovers in the darkness, attempting to speak, but her vocal cords are parched and barely audible.",
+                                "scene": "Sarah's parched mouth moves in the darkness, whispering inaudibly.",
                                 "entities": [
-                                    "Dr. Maria Rodriguez",
-                                    "Elijah",
-                                    "The Voice"
+                                    "Sarah Cooper",
+                                    "Dr. Elara Vex",
+                                    "Machine Man"
                                 ],
                                 "children": [],
-                                "id": "f28f9031-a7ba-4f89-ae7d-c4f5e498e6dc"
+                                "id": "456bdf05-050a-4657-9fc7-c401ce8adc4d"
                             },
                             {
-                                "text": "Leo becomes overwhelmed by the sheer volume of thoughts he can hear, making it difficult to focus on anything else.",
-                                "scene": "Leo's crowded, cluttered apartment filled with chaotic noise.",
+                                "text": "Sarah hears faint whispers in the darkness, the voices unclear and distorted.",
+                                "scene": "Sarah's parched mouth moves in the darkness, but unknown voices whisper in the distance.",
                                 "entities": [
-                                    "Dr. Maria Rodriguez",
-                                    "Elijah",
-                                    "The Voice"
+                                    "Sarah Cooper",
+                                    "Dr. Elara Vex",
+                                    "Machine Man"
                                 ],
                                 "children": [],
-                                "id": "b8c84f28-f071-4aa2-ad2e-22070ac43533"
+                                "id": "133a0962-0c0a-4e2c-9c9f-1f128a476354"
                             }
                         ],
-                        "id": "1b5902ea-f9e5-429b-bacb-337d095fafe6"
+                        "id": "b5a467da-ea96-4e34-8914-f29dcda5a6d1"
                     },
                     {
-                        "text": "* Leo experiences a vivid dream about a mysterious figure speaking to him in a dimly lit, ancient library.",
-                        "scene": "A gothic-style mansion's dimly lit, stacked-high library.",
+                        "text": "Sarah's eyes adjust to the dim light, revealing a small, unused ventilation shaft in the corner of the room.",
+                        "scene": "Dark, cramped storage room with flickering fluorescent lights.",
                         "entities": [
-                            "The Voice",
-                            "Alex"
+                            "Sarah Cooper",
+                            "Machine Man",
+                            "Dr. Elara Vex"
                         ],
                         "children": [
                             {
-                                "text": "Leo is lost in a vivid dream, floating through dusty stacks of ancient tomes towards an enigmatic figure cloaked in shadows.",
-                                "scene": "Dimly lit, gothic-style mansion's library stacks",
+                                "text": "Sarah blinks away the darkness, groggily taking in her surroundings.",
+                                "scene": "a dimly lit, cramped storage room.",
                                 "entities": [
-                                    "The Voice",
-                                    "Alex"
+                                    "Sarah Cooper",
+                                    "Dr. Elara Vex",
+                                    "Machine Man"
                                 ],
                                 "children": [],
-                                "id": "abfb04e0-9d78-4614-9168-c5ab54a7524e"
+                                "id": "0ee34af5-a43b-4985-9f9f-41e661ab2934"
                             },
                             {
-                                "text": "Leo stumbles upon an ancient text detailing the history of mind-reading, revealing a long-forgotten civilization once mastered the art.",
-                                "scene": "Hidden library within crumbling ruins.",
+                                "text": "The flickering fluorescent lights overhead hum with an ominous buzz, casting eerie shadows on the walls.",
+                                "scene": "Dark, cramped storage room filled with creaking metal shelves.",
                                 "entities": [
-                                    "Dr. Maria Rodriguez",
-                                    "Elijah",
-                                    "The Voice"
+                                    "Machine Man",
+                                    "Sarah Cooper",
+                                    "Dr. Elara Vex"
                                 ],
                                 "children": [],
-                                "id": "af5674f9-8bd6-41b8-903a-dd65aba31212"
+                                "id": "1aa19b4a-d078-4a02-a37a-895b586a201b"
+                            },
+                            {
+                                "text": "Sarah's eyes adjust to the dim light, revealing a small, unused ventilation shaft in the corner of the room. Suddenly, a faint mewling noise emanates from within.",
+                                "scene": "A dark, dusty abandonment substation with flickering emergency lights.",
+                                "entities": [
+                                    "Machine Man",
+                                    "Sarah Cooper",
+                                    "Dr. Elara Vex"
+                                ],
+                                "children": [],
+                                "id": "1b02775a-dbd4-4138-a38f-1fd853771b6c"
                             }
                         ],
-                        "id": "e3718c06-f792-4ce9-99c8-b7efd2895188"
+                        "id": "baef0d0b-778d-4dda-8e32-9407091511a2"
                     }
                 ],
-                "id": "5520b985-24c1-40d4-85ce-e29c5d026047"
+                "id": "675cce1c-f16c-4c37-bc6e-863f26b46dbe"
             },
             {
-                "text": "Leo discovers the truth about his abilities and meets a secret society of mind-readers.",
-                "scene": "An underground club filled with hooded figures.",
+                "text": "Sarah explores the ruined city and encounters a charismatic leader, Jack Atlas, who attempts to recruit her to his faction.",
+                "scene": "Erupting volcano with abandoned buildings.",
                 "entities": [
-                    "Dr. Maria Rodriguez",
-                    "Elijah",
-                    "The Voice"
+                    "Jack Atlas",
+                    "Sarah Cooper"
                 ],
                 "children": [
                     {
-                        "text": "Leo discovers a hidden room in his apartment filled with books, artifacts, and strange symbols, leading him to question his own sanity.",
-                        "scene": "Leo's secret attic, cluttered with mystical objects",
+                        "text": "Sarah stumbles upon a hidden underground bunker filled with supplies and technology, hinting at the possibility of a friendly faction in the city.",
+                        "scene": "derelict subway tunnel filled with abandoned survival gear.",
                         "entities": [
-                            "The Voice",
-                            "Alex"
+                            "Sarah Cooper",
+                            "Jack Atlas",
+                            "Machine Man"
                         ],
                         "children": [
                             {
-                                "text": "Leo stumbles upon a mysterious, intricately carved wooden box hidden in the attic's darkest corner.",
-                                "scene": "Dark, dusty attic corner amid grandfather's old trunks.",
+                                "text": "Sarah stumbles upon an unusual safe room, well-equipped with food, water, and medical supplies.",
+                                "scene": "Abandoned research station hidden in a remote valley.",
                                 "entities": [
-                                    "Alex",
-                                    "The Voice"
+                                    "Sarah Cooper",
+                                    "Jack Atlas",
+                                    "Machine Man",
+                                    "Erebus"
                                 ],
                                 "children": [],
-                                "id": "12c5f2ed-aae0-4c50-918b-2cc282c954d5"
+                                "id": "2eca146d-ee65-4b6d-818d-1d690ddb53e5"
                             },
                             {
-                                "text": "as Leo opens the wooden box, he finds a hidden compartment filled with yellowed documents, each containing cryptic notes and strange diagrams. He becomes more obsessed with unraveling the mystery.",
-                                "scene": "Dusty attic storeroom filled with artifacts from the past.",
+                                "text": "Sarah discovers a hidden laboratory filled with advanced technology and equipment, indicating the presence of a secretive organization within the city.",
+                                "scene": "Abandoned research facility hidden in a remote valley.",
                                 "entities": [
-                                    "Alex",
-                                    "The Voice"
+                                    "Sarah Cooper",
+                                    "Jack Atlas",
+                                    "Machine Man",
+                                    "Erebus"
                                 ],
                                 "children": [],
-                                "id": "c8adb6b6-0144-4ceb-a20f-f0bba0de2780"
-                            },
-                            {
-                                "text": "Leo discovers a series of strange symbols etched into the walls of his hidden room, seemingly pulsing with a dim, otherworldly light.",
-                                "scene": "Attic of an old Victorian mansion, dusty and dimly lit.",
-                                "entities": [
-                                    "The Voice",
-                                    "Alex",
-                                    "Lindstrom"
-                                ],
-                                "children": [],
-                                "id": "ac7823e5-f7a9-4ca1-aa21-42dcf72f0bd0"
-                            },
-                            {
-                                "text": "As Leo delves deeper into the hidden room, he discovers a strange, glowing crystal embedded in the wall, emitting a faint hum that seems to resonate with his own mind.",
-                                "scene": "Ancient, mysterious temple filled with ethereal energy.",
-                                "entities": [
-                                    "The Voice",
-                                    "Alex",
-                                    "Lindstrom"
-                                ],
-                                "children": [],
-                                "id": "ee09925c-4c41-4ba7-9a95-0249f73a4d31"
-                            },
-                            {
-                                "text": "Leo discovers a series of eerie, intricately drawn diagrams etched into the walls of his hidden room, seemingly pulsing with a dim, otherworldly light.",
-                                "scene": "Cobweb-filled attic of an abandoned Victorian mansion.",
-                                "entities": [
-                                    "The Voice",
-                                    "Alex",
-                                    "Lindstrom"
-                                ],
-                                "children": [],
-                                "id": "44a096bb-5f9e-4390-a97a-30e38f7e05a3"
+                                "id": "fec1c1ec-2f04-4c6b-abaf-d8faf10a34f1"
                             }
                         ],
-                        "id": "b54d2783-b249-4b96-9155-bdab60fdd9f7"
+                        "id": "0f5ab4bc-6691-45ea-b272-4ac151d96804"
                     },
                     {
-                        "text": "Leo's hidden room reveals a cryptic message from his deceased grandfather, leading him on a journey through the city's forgotten corners.",
-                        "scene": "Abandoned warehouse district's crumbling stone alley.",
+                        "text": "Sarah encounters a group of rebels who have been fighting against the gas-masked figures, and they offer to help her find answers about the game.",
+                        "scene": "Ruined abbey overgrown with vines.",
                         "entities": [
-                            "The Voice",
-                            "Alex"
+                            "Sarah Cooper",
+                            "Jack Atlas",
+                            "Machine Man",
+                            "Erebus"
                         ],
                         "children": [
                             {
-                                "text": "Leo discovers a time-worn, leather-bound book hidden beneath the secret room's floorboards, filled with cryptic notes and strange symbols.",
-                                "scene": "Attic of a forgotten Victorian mansion.",
+                                "text": "Sarah encounters a group of rebels who have been fighting against the gas-masked figures, and they offer to help her find answers about the game.",
+                                "scene": "A hidden underground base of rebels, cautiously monitoring the city.",
                                 "entities": [
-                                    "Alex",
-                                    "The Voice"
+                                    "Sarah Cooper",
+                                    "Jack Atlas",
+                                    "Machine Man",
+                                    "Erebus"
                                 ],
                                 "children": [],
-                                "id": "4d1c5c7c-356b-4d08-98bd-adc542ac57d4"
+                                "id": "826777cb-2390-4fc5-9470-213637fc75bf"
                             },
                             {
-                                "text": "Leo's grandfather's message reveals a hidden laboratory deep within the city, filled with strange machines and devices that may hold the key to unlocking his powers.",
-                                "scene": "Abandoned former science museum filled with mysterious artifacts.",
+                                "text": "Sarah is welcomed by the rebels and introduced to their leader, a charismatic figure named Alex.",
+                                "scene": "In a dimly lit, underground bunker filled with survival gear.",
                                 "entities": [
-                                    "Alex",
-                                    "The Voice"
+                                    "Sarah Cooper",
+                                    "Jack Atlas",
+                                    "Machine Man",
+                                    "Erebus"
                                 ],
                                 "children": [],
-                                "id": "b20ce1b7-9d39-46e8-974e-fa859c7eee2d"
+                                "id": "477a7e51-4f5d-456c-8da5-5b36fc673a5b"
                             }
                         ],
-                        "id": "2d476949-d82d-43d3-aa07-44f5e8bd60b8"
+                        "id": "6b680728-a921-46e7-a562-e0c51b18f18b"
+                    },
+                    {
+                        "text": "Sarah discovers a hidden underground bunker filled with survival gear and documents detailing the history of the city and the game.",
+                        "scene": "Abandoned subway tunnels hidden beneath the ruined city.",
+                        "entities": [
+                            "Sarah Cooper"
+                        ],
+                        "children": [
+                            {
+                                "text": "Sarah discovers a hidden journal belonging to Dr. Elara Vex, detailing the scientist's obsession with creating a simulation of a post-apocalyptic world.",
+                                "scene": "A dusty, forgotten laboratory in the ruined city's underground.",
+                                "entities": [
+                                    "Dr. Elara Vex",
+                                    "Sarah Cooper",
+                                    "Erebus"
+                                ],
+                                "children": [],
+                                "id": "d2819933-4eaf-4a02-b448-3f7311c544ca"
+                            },
+                            {
+                                "text": "Sarah discovers a hidden Data Terminal that provides critical data on the game's true purpose, including clues about the creator's identity and the nature of the simulation.",
+                                "scene": "Abandoned laboratory's forgotten server room.",
+                                "entities": [
+                                    "Sarah Cooper",
+                                    "Dr. Elara Vex",
+                                    "Erebus"
+                                ],
+                                "children": [],
+                                "id": "aaa691c2-6239-4e01-83d7-811bfab3b45e"
+                            }
+                        ],
+                        "id": "c9c822cf-341f-498a-a3d6-992510998c9a"
                     }
                 ],
-                "id": "89c63d28-5368-47ab-b5b0-d655ca52ad82"
+                "id": "f9d765e3-a617-4172-8961-dacb546cd1e0"
             },
             {
-                "text": "Leo must use his abilities to stop a powerful businessman from exploiting the mind-reading technology, while also uncovering the truth about his own past.",
-                "scene": "Lindstrom's luxurious office building downtown.",
+                "text": "Sarah uncovers the truth behind the game and confronts the mysterious creator, Dr. Elara Vex, who reveals a sinister motive for the simulation.",
+                "scene": "A dingy, dimly lit laboratory filled with strange machinery.",
                 "entities": [
-                    "Dr. Maria Rodriguez",
-                    "Elijah"
+                    "Dr. Elara Vex",
+                    "Sarah Cooper"
                 ],
                 "children": [
                     {
-                        "text": "Leo discovers Lindstrom's plan to harness the power of mind-reading technology for his own gain, leading to a tense confrontation.",
-                        "scene": "Towering skyscraper with window-side conference room.",
+                        "text": "Sarah discovers a hidden Data Terminal that provides crucial information about the game's true purpose.",
+                        "scene": "A cramped, dimly lit server room deep within the ruined city's underground.",
                         "entities": [
-                            "Lindstrom",
-                            "Dr. Maria Rodriguez",
-                            "Elijah"
+                            "Sarah Cooper",
+                            "Dr. Elara Vex",
+                            "Erebus"
                         ],
                         "children": [
                             {
-                                "text": "Lindstrom reveals his plan to develop a mind-reading app for public use, sparking fears of government control and invasion of privacy.",
-                                "scene": "A crowded coffee shop filled with discussing civilians.",
+                                "text": "Sarah discovers a cryptic message on the Data Terminal, hinting at the true purpose of the game.",
+                                "scene": "A secret underground data storage room hidden deep within the game.",
                                 "entities": [
-                                    "Lindstrom",
-                                    "Rachel",
-                                    "Samantha"
+                                    "Sarah Cooper",
+                                    "Dr. Elara Vex"
                                 ],
                                 "children": [],
-                                "id": "0a57486e-17e2-423a-b4af-58d8d57a1ccf"
+                                "id": "defdebbb-c78a-457f-9c18-a520ca03b14d"
                             },
                             {
-                                "text": "Lindstrom's plan unravels as The Voice intervenes, telepathically influencing key figures to challenge his authority and expose his sinister intentions.",
-                                "scene": "A crowded street festival filled with drummers and performers.",
+                                "text": "Sarah hacks into the Data Terminal, revealing a hidden file containing footage of the real world before the apocalypse.",
+                                "scene": "A dilapidated time machine laboratory deep in the game's underground.",
                                 "entities": [
-                                    "Lindstrom",
-                                    "The Voice"
+                                    "Sarah Cooper",
+                                    "Dr. Elara Vex",
+                                    "Erebus"
                                 ],
                                 "children": [],
-                                "id": "47d2ceb3-69ec-456f-ba24-f25fedaca5c1"
+                                "id": "af5463b1-1352-4abf-a519-64ca72e45ada"
                             }
                         ],
-                        "id": "a2cbd1ea-40f3-4872-a834-6aae7641b12c"
+                        "id": "0f87d08e-dd5f-40e3-ab54-fef7828e8da4"
                     },
                     {
-                        "text": "- Leo finally uncovers the truth about his past, including how he acquired his mind-reading abilities and why he's been experiencing vivid dreams and sensations. With this newfound knowledge, he confronts Lindstrom in an epic showdown, using his powers to disable Lindstrom's mind-reading technology and expose his criminal activities to the world. The city erupts in chaos as the secret of mind-reading is revealed, but with Leo's help, it also becomes a beacon of hope for a better future.",
-                        "scene": "Leo's childhood home, filled with memories and secrets.",
+                        "text": "Sarah uncovers a hidden message from Dr. Elara Vex, revealing that the game was created to study the psychological effects of trauma and desperation on survivors in a post-apocalyptic world.",
+                        "scene": "An abandoned, dusty library filled with forgotten tomes.",
                         "entities": [
-                            "Lindstrom",
-                            "Dr. Maria Rodriguez",
-                            "Elijah"
+                            "Dr. Elara Vex",
+                            "Sarah Cooper",
+                            "Erebus"
                         ],
                         "children": [
                             {
-                                "text": "*Leo discovers a hidden journal belonging to his deceased grandfather, revealing long-buried family secrets and unlocking the mysteries of his mind-reading abilities.",
-                                "scene": "A dusty antique shop filled with old books and forgotten heirlooms.",
+                                "text": "Sarah discovers a hidden journal belonging to Dr. Elara Vex, detailing the true purpose of the game and her own motivations.",
+                                "scene": "A secret laboratory hidden deep within the game's underground.",
                                 "entities": [
-                                    "Alex",
-                                    "Dr. Maria Rodriguez",
-                                    "The Voice"
+                                    "Dr. Elara Vex",
+                                    "Sarah Cooper",
+                                    "Erebus"
                                 ],
                                 "children": [],
-                                "id": "29449001-1382-4e9f-985e-55aee3a559ab"
+                                "id": "02171be1-0487-4bd9-8f73-559e9fb5e190"
                             },
                             {
-                                "text": "*The Voice helps Leo uncover the truth about his past by revealing hidden memories and secrets through their telepathic connection.",
-                                "scene": "Leo's grandfather's dusty attic filled with vintage artifacts.",
+                                "text": "Sarah confronts Dr. Elara Vex, demanding answers about the game's true purpose and the nature of her experiments.",
+                                "scene": "A dimly lit laboratory filled with strange machinery and experimentation equipment.",
                                 "entities": [
-                                    "The Voice",
-                                    "Alex",
-                                    "Dr. Maria Rodriguez"
+                                    "Dr. Elara Vex",
+                                    "Machine Man",
+                                    "Sarah Cooper"
                                 ],
                                 "children": [],
-                                "id": "b043e8c0-421c-4295-9aa6-059956a1ad95"
+                                "id": "da51150d-f54c-40a5-8c92-e256e9aee4e5"
+                            },
+                            {
+                                "text": "Sarah, enraged by Dr. Elara Vex's deception, challenges her to a final confrontation within the virtual reality simulation.",
+                                "scene": "The heart of the virtual reality simulation's central server.",
+                                "entities": [
+                                    "Dr. Elara Vex",
+                                    "Sarah Cooper",
+                                    "Erebus"
+                                ],
+                                "children": [],
+                                "id": "9f00836b-88d1-4a7d-91c8-9654018a1029"
+                            },
+                            {
+                                "text": "Sarah triumphantly defeats Dr. Elara Vex in a final showdown, shattering the simulated world and freeing herself from the game's grasp.",
+                                "scene": "A glowing, ethereal realm beyond the virtual world.",
+                                "entities": [
+                                    "Dr. Elara Vex",
+                                    "Sarah Cooper",
+                                    "Erebus"
+                                ],
+                                "children": [],
+                                "id": "c66891a4-051d-41cd-823f-81ae5bf66ffa"
                             }
                         ],
-                        "id": "026bec6b-a559-476c-b339-3e506090dcef"
+                        "id": "a3376fab-eeb6-4b12-927b-2d689d4185b9"
                     }
                 ],
-                "id": "76958b6d-8a2d-4b7b-a34d-9f7fb2b19443"
+                "id": "06c24e91-1e3b-4021-9e9e-64b5c932df5b"
             }
         ],
-        "id": "ef7ec593-b8f8-472d-892d-08006a3a49cf"
+        "id": "a929f15f-935d-4526-b880-fb66f61f25fc"
     }
 }

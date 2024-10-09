@@ -1,10 +1,10 @@
 {
   "title": {
-    "instruction": "Write a title for a story which is about: A young man named Leo wakes up one morning to find that he has the ability to read minds.",
+    "instruction": "Write a title for a story which is about: A girl named Sarah wakes up in an unfamiliar location with no memory of how she got there. She discovers that she is trapped in a virtual reality game designed to mimic a post-apocalyptic wasteland.",
     "response_prefix": "Sure, here is a possible title:\n\nTitle:"
   },
   "premise": {
-    "instruction": "Write a premise for a story which is about: A young man named Leo wakes up one morning to find that he has the ability to read minds.",
+    "instruction": "Write a premise for a story which is about: A girl named Sarah wakes up in an unfamiliar location with no memory of how she got there. She discovers that she is trapped in a virtual reality game designed to mimic a post-apocalyptic wasteland.",
     "response_prefix": "Title: {title}\n\nPremise:"
   }
 }

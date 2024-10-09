@@ -10,8 +10,8 @@ defaults:
     engine: /root/autodl-tmp/models/Llama-2-7b-chat-hf # TODO path/to/vllm-supported/hf/model, vllm-supported huggingface model string, or openai model string
     tensor_parallel_size: 1 # TODO number of gpus to use
     server_type: vllm # "vllm" or "openai"
-    host: https://u447140-bf3c-40c902e6.beijinga.seetacloud.com # model server if using vllm
-    port: 443
+    host: https://u447140-939f-6155de3e.bjb1.seetacloud.com # model server if using vllm
+    port: 8443
     prompt_format: llama2-chat # "none" (pretrained base model), "openai-chat", or "llama2-chat"; add other options in common/llm/prompt.py as needed
     temperature: 1.2
     top_p: 0.99
