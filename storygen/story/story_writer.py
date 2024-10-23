@@ -1,5 +1,3 @@
-# Copyright (c) Meta Platforms, Inc. and affiliates.
-
 from copy import deepcopy
 import logging
 import os
@@ -7,7 +5,6 @@ import pickle
 
 from storygen.plan.outline import *
 from storygen.story.story import *
-
 
 def generate_story(plan, story_config, story_prompts, llm_client, intermediate_save_prefix=None, delete_old_intermediates=True):
     beam = StoryBeam([Story(plan)])

@@ -1,8 +1,6 @@
-# Copyright (c) Meta Platforms, Inc. and affiliates.
-
 from collections.abc import Sequence
 from functools import partial
-import string
+#import string
 import uuid
 
 from storygen.common.llm.llm import *

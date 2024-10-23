@@ -1,8 +1,5 @@
-# Copyright (c) Meta Platforms, Inc. and affiliates.
-
 from typing import Any
 import yaml
-
 
 def recursive_lowercase_keys(d):
     if type(d) is dict:
@@ -12,7 +9,6 @@ def recursive_lowercase_keys(d):
         return new_d
     else:
         return d
-
 
 class Config:
     def __init__(self, config, parent=None):

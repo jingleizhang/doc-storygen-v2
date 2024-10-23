@@ -1,10 +1,7 @@
-# Copyright (c) Meta Platforms, Inc. and affiliates.
-
 from contextlib import contextmanager
 import logging
 import re
 import signal
-
 
 import roman
 import Levenshtein
@@ -13,9 +10,7 @@ from scipy.special import log_softmax
 
 from storygen.common.llm.prompt import TemplatePromptBuilder
 
-
 tokenizers = {}
-
 
 def init_logging(logging_level):
     logging_level = logging_level.upper()

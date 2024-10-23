@@ -1,7 +1,5 @@
-# Copyright (c) Meta Platforms, Inc. and affiliates.
-
 import json
-import logging
+#import logging
 
 from storygen.common.util import *
 from storygen.common.llm.llm import *
@@ -9,7 +7,6 @@ from storygen.premise.premise import Premise
 from storygen.plan.setting import Setting
 from storygen.plan.entity import *
 from storygen.plan.outline import *
-
 
 class Plan:
     @staticmethod

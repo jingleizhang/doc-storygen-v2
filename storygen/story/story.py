@@ -1,5 +1,3 @@
-# Copyright (c) Meta Platforms, Inc. and affiliates.
-
 from collections.abc import Sequence
 
 class Passage:

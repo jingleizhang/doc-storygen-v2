@@ -1,5 +1,3 @@
-# Copyright (c) Meta Platforms, Inc. and affiliates.
-
 from storygen.common.util import *
 from storygen.common.llm.llm import *
 from storygen.premise.premise import Premise

@@ -1,13 +1,8 @@
-# Copyright (c) Meta Platforms, Inc. and affiliates.
-
 import json
 import logging
-
 from langchain.prompts import PromptTemplate
 
-
 warned_prompt_format = {'openai_response_prefix': False}
-
 
 def format_langchain_prompt(langchain_prompt, **kwargs):
     kwargs = {k: v for k, v in kwargs.items() if k in langchain_prompt.input_variables}

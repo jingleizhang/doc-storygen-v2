@@ -1,6 +1,4 @@
-# Copyright (c) Meta Platforms, Inc. and affiliates.
-
-import string
+#import string
 
 try:
     from nltk.corpus import stopwords

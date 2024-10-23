@@ -1,16 +1,10 @@
-# Copyright (c) Meta Platforms, Inc. and affiliates.
-
 import logging
 import os
-
 import openai
-
 from storygen.common.server import ServerConfig
 from storygen.common.util import *
 
-
 models = {} # model string -> model object
-
 
 class SamplingConfig:
     def __init__(self, 

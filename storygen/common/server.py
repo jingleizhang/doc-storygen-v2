@@ -1,12 +1,9 @@
-# Copyright (c) Meta Platforms, Inc. and affiliates.
-
 import json
-import logging
-import os
+# import logging
+# import os
 
 LOCALHOST = 'http://127.0.0.1'
 DEFAULT_PORT = 8000
-
 
 class ServerConfig:
     def __init__(self, engine, host, port, server_type, tensor_parallel_size):
@@ -50,31 +47,31 @@ class ServerConfig:
         return (self.engine, self.host, self.port, self.server_type, self.tensor_parallel_size) == (other.engine, other.host, other.port, other.server_type, self.tensor_parallel_size)
 
 
-def start_server(config):
-    # log port to file with appending
-    if os.path.exists('server_configs.txt'):
-        with open('server_configs.txt', 'r') as f:
-            existing_configs = f.read().split('\n')
-            existing_configs = [ServerConfig.from_json(config_str) for config_str in existing_configs if config_str != '']
-    else:
-        existing_configs = []
-    if config not in existing_configs:
-        with open('server_configs.txt', 'a') as f:
-            f.write(config.json() + '\n')
-    else:
-        logging.info(f"Server for {config['engine']} already started.")
-        return
-    if config['host'] == LOCALHOST and config['server_type'] == 'vllm':
-        logging.info(f"Starting vllm server for {config['engine']} on port {config['port']} with {config['tensor_parallel_size']} GPUs... (it's ready when it says \"Uvicorn running\")")
-        # run vllm openai-interface server
-        # try:
-        os.system(f"python -u -m vllm.entrypoints.openai.api_server \
-                        --host 0.0.0.0 \
-                        --model {config['engine']} \
-                        --tensor-parallel-size {config['tensor_parallel_size']} \
-                        --port {config['port']} &")
-        #     logging.info(f"Started vllm server for {config['engine']} on port {config['port']}!")
-        # except:
-        #     logging.warning(f"Failed to start vllm server for {config['engine']} on port {config['port']}. Is the server already running?")
-    else:
-        logging.info(f"Not starting server for {config['engine']} (not localhost or not vllm).")
+# def start_server(config):
+#     # log port to file with appending
+#     if os.path.exists('server_configs.txt'):
+#         with open('server_configs.txt', 'r') as f:
+#             existing_configs = f.read().split('\n')
+#             existing_configs = [ServerConfig.from_json(config_str) for config_str in existing_configs if config_str != '']
+#     else:
+#         existing_configs = []
+#     if config not in existing_configs:
+#         with open('server_configs.txt', 'a') as f:
+#             f.write(config.json() + '\n')
+#     else:
+#         logging.info(f"Server for {config['engine']} already started.")
+#         return
+#     if config['host'] == LOCALHOST and config['server_type'] == 'vllm':
+#         logging.info(f"Starting vllm server for {config['engine']} on port {config['port']} with {config['tensor_parallel_size']} GPUs... (it's ready when it says \"Uvicorn running\")")
+#         # run vllm openai-interface server
+#         # try:
+#         os.system(f"python -u -m vllm.entrypoints.openai.api_server \
+#                         --host 0.0.0.0 \
+#                         --model {config['engine']} \
+#                         --tensor-parallel-size {config['tensor_parallel_size']} \
+#                         --port {config['port']} &")
+#         #     logging.info(f"Started vllm server for {config['engine']} on port {config['port']}!")
+#         # except:
+#         #     logging.warning(f"Failed to start vllm server for {config['engine']} on port {config['port']}. Is the server already running?")
+#     else:
+#         logging.info(f"Not starting server for {config['engine']} (not localhost or not vllm).")
