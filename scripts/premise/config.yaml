@@ -5,7 +5,7 @@
 
 defaults:
   output_path: output/premise.json
-  logging_level: info # debug, info, warning, error, critical
+  logging_level: debug # debug, info, warning, error, critical
   MODEL:
     engine: /root/autodl-tmp/models/Llama-2-7b-chat-hf # TODO path/to/vllm-supported/hf/model, vllm-supported huggingface model string, or openai model string
     tensor_parallel_size: 1 # TODO number of gpus to use

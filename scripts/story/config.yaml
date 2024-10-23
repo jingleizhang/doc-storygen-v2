@@ -25,7 +25,7 @@ defaults:
     STORY:
       rendering_policy: leaves # which outline nodes to render. "leaves" or "all"
       min_passages_per_node: 2
-      max_passages_per_node: 5
+      max_passages_per_node: 8
       passage_beam_width: 1 # number of candidates in the beam within the rendering for each outline node; occasional failure cases/crashes if you reduce to 1, but it's fine if you're ok with restarting from intermediate
       outline_node_beam_width: 1 # number of candidates at the higher outline node level; occasional failure cases/crashes if you reduce to 1, but it's fine if you're ok with restarting from intermediate
       ancestor_nodes_in_premise: true # whether to include ancestor node events in the premise as context

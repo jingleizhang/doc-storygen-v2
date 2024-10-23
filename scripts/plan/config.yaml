@@ -24,7 +24,7 @@ defaults:
     ENTITY:
       max_attempts: 6 # if it fails for whatever reason, we'll retry entity generation up to this many times
       min_entities: 3
-      max_entities: 5
+      max_entities: 8
       NAME:
         max_tokens: 16
         stop: ["\n", ",", ":", "("]
@@ -35,7 +35,7 @@ defaults:
       expansion_policy: breadth-first # only one option for now; in the future may support expanding based on e.g. predicted concreteness
       max_depth: 3 # depth of expansion. the (empty) root of the tree is depth 0 and the top-level 1,2,3 is depth 1.
       context: ancestors-with-siblings-children # how much context the model sees when generating new outline nodes. options are ancestors, ancestors-with-siblings, ancestors-with-siblings-children, full. you should probably use more context as your model's context window allows.
-      min_children: 2 # min children per expansion
+      min_children: 3 # min children per expansion
       preferred_max_children: 3
       max_children: 5
       EVENT_DEPTH_0: # slightly different handling at the top level compared to later
